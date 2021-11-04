@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/Inicio.css" />
+
+<link rel="stylesheet"
+      href="https://kit.fontawesome.com/ffd11ebe0f.js" crossorigin="anonymous" />
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js>" />
+
+<script src="https://kit.fontawesome.com/ffd11ebe0f.js" crossorigin="anonymous"></script>
+
+<body>
+    <header class="bg_animate">
+        <div class="header_nav">
+            <div class="contenedor">
+                <nav>
+                    <i class="fa fa-code"></i>
+                    @Html.ActionLink("Inicio", "Index2")
+                    <i class="fas fa-user-circle"></i>
+                    @Html.ActionLink("Usuario", "Guardado")
+                    <i class="fa fa-bullhorn"></i>
+                    @Html.ActionLink("anuncio", "SaveAnuncio")
+                    <i class="fa fa-building"></i>
+                    @Html.ActionLink("Empresa", "GuardEmpresa")
+                    <i class="fa fa-building"></i>
+                    @Html.ActionLink("Categoria", "Categorias")
+                </nav>
+            </div>
+        </div>
+        <section class="banner contenedor">
+            <secrion class="banner_title">
+                <h2 style="color: black" class="animate__animated animate__backInDown text-center "> BIENVENIDO A</h2>
+                <h2 style="color: black" class="animate__animated animate__backInDown text-center "> JOBTIND21</h2>
+                <buttom type="Submit" class="Ingresar">@Html.ActionLink("INGRESAR", "Index2")</buttom>
+
+            </secrion>
+            <div class="banner_img">
+                <img src="~/css/Proyec.jpg" alt="" class="animate__animated animate__backInDown">
+            </div>
+        </section>
+
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
+</body>

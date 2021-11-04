@@ -1,0 +1,24 @@
+﻿body {
+    background-color: azure
+}
+
+contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 90px;
+    top: 30px;
+}
+
+
+
+.banner_img {
+    position: absolute;
+    border: solid lavender 2px;
+    padding: 5px;
+    right: 10%;
+}
+
+    .banner_img img {
+        width: 500px;
+        display: block;
+    }
